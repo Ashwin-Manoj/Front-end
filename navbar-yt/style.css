@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 70px;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+  font-weight: 900;
+  cursor: default;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  padding: 8px;
+  margin-left: 30px;
+}
